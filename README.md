@@ -1,6 +1,6 @@
 # CAN PID Thermal Plant Simulation
 
-This project emulates a three-node drivetrain/thermal loop on top of SocketCAN. It lets you experiment with a dual-loop PID controller that lives in the Linux kernel, a user-space plant model, and a helper tool that sets controller targets. Everything is tuned so you can run the whole system on a single machine using the virtual `vcan` bus.
+This project simulate the closed thermal loop on top of SocketCAN. It lets you experiment with a dual-loop PID controller that lives in the Linux kernel, a user-space plant model, and a helper tool that sets controller targets. Everything is tuned so you can run the whole system on a single machine using the virtual `vcan` bus.
 
 <p align="center">
   <img src="image/CANcontroller_diagram.drawio.png" alt="CAN controller architecture" width="520">
