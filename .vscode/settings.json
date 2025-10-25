@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "poll.h": "c",
+        "controller_core.h": "c",
+        "netdevice.h": "c",
+        "net.h": "c"
+    }
+}

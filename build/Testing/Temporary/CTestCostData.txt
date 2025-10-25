@@ -1,0 +1,16 @@
+plant_user_test 1 0.0051652
+CtrlSetFrames.BuildSetpointOnly 3 0.00119633
+ParseOr.ValidNumbersAndFallbacks 13 0.000131951
+Sat.ClampsProperly 13 0.000102733
+SoftAbs.BehavesNearZero 13 0.000156587
+SafeSq.CapsBeforeSquaring 11 0.000179928
+WaterViscosity.MonotoneDecreasingWithTemperature 11 0.00013923
+UAfunc.IncreasesWithFanSpeedAndIsClamped 11 0.000126427
+Psys.NonNegativeAndGrowsWithTs 11 0.000126721
+Packing.VprevAndDtQuantization 11 0.000137985
+PlantStep.StableNoCommandSmallDt 11 0.000150358
+PlantStep.FanIncreasesUAAndCoolsColdLegFaster 11 0.000135668
+CtrlSetQuant.Q01RoundsAndClamps 11 0.000194485
+CtrlSetQuant.Q88AndQ44Basics 11 0.000273574
+CtrlSetFrames.BuildParamsAll 3 0.00127598
+---

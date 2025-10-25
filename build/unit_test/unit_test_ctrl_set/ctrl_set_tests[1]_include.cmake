@@ -1,0 +1,5 @@
+if(EXISTS "/home/alireza/Documents/Interview_ECE/CAN_PID/CAN_Simulation/build/unit_test/unit_test_ctrl_set/ctrl_set_tests[1]_tests.cmake")
+  include("/home/alireza/Documents/Interview_ECE/CAN_PID/CAN_Simulation/build/unit_test/unit_test_ctrl_set/ctrl_set_tests[1]_tests.cmake")
+else()
+  add_test(ctrl_set_tests_NOT_BUILT ctrl_set_tests_NOT_BUILT)
+endif()

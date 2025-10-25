@@ -1,0 +1,381 @@
+Start testing: Oct 24 21:30 PDT
+----------------------------------------------------------
+1/14 Testing: ParseOr.ValidNumbersAndFallbacks
+1/14 Test: ParseOr.ValidNumbersAndFallbacks
+Command: "/home/alireza/Documents/Interview_ECE/CAN_PID/CAN_Simulation/build/unit_test/unit_test_plant_user/plant_user_test" "--gtest_filter=ParseOr.ValidNumbersAndFallbacks" "--gtest_also_run_disabled_tests"
+Directory: /home/alireza/Documents/Interview_ECE/CAN_PID/CAN_Simulation/build/unit_test/unit_test_plant_user
+"ParseOr.ValidNumbersAndFallbacks" start time: Oct 24 21:30 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = ParseOr.ValidNumbersAndFallbacks
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParseOr
+[ RUN      ] ParseOr.ValidNumbersAndFallbacks
+[       OK ] ParseOr.ValidNumbersAndFallbacks (0 ms)
+[----------] 1 test from ParseOr (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ParseOr.ValidNumbersAndFallbacks" end time: Oct 24 21:30 PDT
+"ParseOr.ValidNumbersAndFallbacks" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/14 Testing: Sat.ClampsProperly
+2/14 Test: Sat.ClampsProperly
+Command: "/home/alireza/Documents/Interview_ECE/CAN_PID/CAN_Simulation/build/unit_test/unit_test_plant_user/plant_user_test" "--gtest_filter=Sat.ClampsProperly" "--gtest_also_run_disabled_tests"
+Directory: /home/alireza/Documents/Interview_ECE/CAN_PID/CAN_Simulation/build/unit_test/unit_test_plant_user
+"Sat.ClampsProperly" start time: Oct 24 21:30 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = Sat.ClampsProperly
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Sat
+[ RUN      ] Sat.ClampsProperly
+[       OK ] Sat.ClampsProperly (0 ms)
+[----------] 1 test from Sat (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Sat.ClampsProperly" end time: Oct 24 21:30 PDT
+"Sat.ClampsProperly" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/14 Testing: SoftAbs.BehavesNearZero
+3/14 Test: SoftAbs.BehavesNearZero
+Command: "/home/alireza/Documents/Interview_ECE/CAN_PID/CAN_Simulation/build/unit_test/unit_test_plant_user/plant_user_test" "--gtest_filter=SoftAbs.BehavesNearZero" "--gtest_also_run_disabled_tests"
+Directory: /home/alireza/Documents/Interview_ECE/CAN_PID/CAN_Simulation/build/unit_test/unit_test_plant_user
+"SoftAbs.BehavesNearZero" start time: Oct 24 21:30 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = SoftAbs.BehavesNearZero
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SoftAbs
+[ RUN      ] SoftAbs.BehavesNearZero
+[       OK ] SoftAbs.BehavesNearZero (0 ms)
+[----------] 1 test from SoftAbs (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"SoftAbs.BehavesNearZero" end time: Oct 24 21:30 PDT
+"SoftAbs.BehavesNearZero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/14 Testing: SafeSq.CapsBeforeSquaring
+4/14 Test: SafeSq.CapsBeforeSquaring
+Command: "/home/alireza/Documents/Interview_ECE/CAN_PID/CAN_Simulation/build/unit_test/unit_test_plant_user/plant_user_test" "--gtest_filter=SafeSq.CapsBeforeSquaring" "--gtest_also_run_disabled_tests"
+Directory: /home/alireza/Documents/Interview_ECE/CAN_PID/CAN_Simulation/build/unit_test/unit_test_plant_user
+"SafeSq.CapsBeforeSquaring" start time: Oct 24 21:30 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = SafeSq.CapsBeforeSquaring
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SafeSq
+[ RUN      ] SafeSq.CapsBeforeSquaring
+[       OK ] SafeSq.CapsBeforeSquaring (0 ms)
+[----------] 1 test from SafeSq (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"SafeSq.CapsBeforeSquaring" end time: Oct 24 21:30 PDT
+"SafeSq.CapsBeforeSquaring" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/14 Testing: WaterViscosity.MonotoneDecreasingWithTemperature
+5/14 Test: WaterViscosity.MonotoneDecreasingWithTemperature
+Command: "/home/alireza/Documents/Interview_ECE/CAN_PID/CAN_Simulation/build/unit_test/unit_test_plant_user/plant_user_test" "--gtest_filter=WaterViscosity.MonotoneDecreasingWithTemperature" "--gtest_also_run_disabled_tests"
+Directory: /home/alireza/Documents/Interview_ECE/CAN_PID/CAN_Simulation/build/unit_test/unit_test_plant_user
+"WaterViscosity.MonotoneDecreasingWithTemperature" start time: Oct 24 21:30 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = WaterViscosity.MonotoneDecreasingWithTemperature
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from WaterViscosity
+[ RUN      ] WaterViscosity.MonotoneDecreasingWithTemperature
+[       OK ] WaterViscosity.MonotoneDecreasingWithTemperature (0 ms)
+[----------] 1 test from WaterViscosity (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"WaterViscosity.MonotoneDecreasingWithTemperature" end time: Oct 24 21:30 PDT
+"WaterViscosity.MonotoneDecreasingWithTemperature" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/14 Testing: UAfunc.IncreasesWithFanSpeedAndIsClamped
+6/14 Test: UAfunc.IncreasesWithFanSpeedAndIsClamped
+Command: "/home/alireza/Documents/Interview_ECE/CAN_PID/CAN_Simulation/build/unit_test/unit_test_plant_user/plant_user_test" "--gtest_filter=UAfunc.IncreasesWithFanSpeedAndIsClamped" "--gtest_also_run_disabled_tests"
+Directory: /home/alireza/Documents/Interview_ECE/CAN_PID/CAN_Simulation/build/unit_test/unit_test_plant_user
+"UAfunc.IncreasesWithFanSpeedAndIsClamped" start time: Oct 24 21:30 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = UAfunc.IncreasesWithFanSpeedAndIsClamped
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UAfunc
+[ RUN      ] UAfunc.IncreasesWithFanSpeedAndIsClamped
+[       OK ] UAfunc.IncreasesWithFanSpeedAndIsClamped (0 ms)
+[----------] 1 test from UAfunc (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"UAfunc.IncreasesWithFanSpeedAndIsClamped" end time: Oct 24 21:30 PDT
+"UAfunc.IncreasesWithFanSpeedAndIsClamped" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/14 Testing: Psys.NonNegativeAndGrowsWithTs
+7/14 Test: Psys.NonNegativeAndGrowsWithTs
+Command: "/home/alireza/Documents/Interview_ECE/CAN_PID/CAN_Simulation/build/unit_test/unit_test_plant_user/plant_user_test" "--gtest_filter=Psys.NonNegativeAndGrowsWithTs" "--gtest_also_run_disabled_tests"
+Directory: /home/alireza/Documents/Interview_ECE/CAN_PID/CAN_Simulation/build/unit_test/unit_test_plant_user
+"Psys.NonNegativeAndGrowsWithTs" start time: Oct 24 21:30 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = Psys.NonNegativeAndGrowsWithTs
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Psys
+[ RUN      ] Psys.NonNegativeAndGrowsWithTs
+[       OK ] Psys.NonNegativeAndGrowsWithTs (0 ms)
+[----------] 1 test from Psys (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Psys.NonNegativeAndGrowsWithTs" end time: Oct 24 21:30 PDT
+"Psys.NonNegativeAndGrowsWithTs" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/14 Testing: Packing.VprevAndDtQuantization
+8/14 Test: Packing.VprevAndDtQuantization
+Command: "/home/alireza/Documents/Interview_ECE/CAN_PID/CAN_Simulation/build/unit_test/unit_test_plant_user/plant_user_test" "--gtest_filter=Packing.VprevAndDtQuantization" "--gtest_also_run_disabled_tests"
+Directory: /home/alireza/Documents/Interview_ECE/CAN_PID/CAN_Simulation/build/unit_test/unit_test_plant_user
+"Packing.VprevAndDtQuantization" start time: Oct 24 21:30 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = Packing.VprevAndDtQuantization
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Packing
+[ RUN      ] Packing.VprevAndDtQuantization
+[       OK ] Packing.VprevAndDtQuantization (0 ms)
+[----------] 1 test from Packing (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Packing.VprevAndDtQuantization" end time: Oct 24 21:30 PDT
+"Packing.VprevAndDtQuantization" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/14 Testing: PlantStep.StableNoCommandSmallDt
+9/14 Test: PlantStep.StableNoCommandSmallDt
+Command: "/home/alireza/Documents/Interview_ECE/CAN_PID/CAN_Simulation/build/unit_test/unit_test_plant_user/plant_user_test" "--gtest_filter=PlantStep.StableNoCommandSmallDt" "--gtest_also_run_disabled_tests"
+Directory: /home/alireza/Documents/Interview_ECE/CAN_PID/CAN_Simulation/build/unit_test/unit_test_plant_user
+"PlantStep.StableNoCommandSmallDt" start time: Oct 24 21:30 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = PlantStep.StableNoCommandSmallDt
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PlantStep
+[ RUN      ] PlantStep.StableNoCommandSmallDt
+[       OK ] PlantStep.StableNoCommandSmallDt (0 ms)
+[----------] 1 test from PlantStep (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"PlantStep.StableNoCommandSmallDt" end time: Oct 24 21:30 PDT
+"PlantStep.StableNoCommandSmallDt" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/14 Testing: PlantStep.FanIncreasesUAAndCoolsColdLegFaster
+10/14 Test: PlantStep.FanIncreasesUAAndCoolsColdLegFaster
+Command: "/home/alireza/Documents/Interview_ECE/CAN_PID/CAN_Simulation/build/unit_test/unit_test_plant_user/plant_user_test" "--gtest_filter=PlantStep.FanIncreasesUAAndCoolsColdLegFaster" "--gtest_also_run_disabled_tests"
+Directory: /home/alireza/Documents/Interview_ECE/CAN_PID/CAN_Simulation/build/unit_test/unit_test_plant_user
+"PlantStep.FanIncreasesUAAndCoolsColdLegFaster" start time: Oct 24 21:30 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = PlantStep.FanIncreasesUAAndCoolsColdLegFaster
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PlantStep
+[ RUN      ] PlantStep.FanIncreasesUAAndCoolsColdLegFaster
+[       OK ] PlantStep.FanIncreasesUAAndCoolsColdLegFaster (0 ms)
+[----------] 1 test from PlantStep (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"PlantStep.FanIncreasesUAAndCoolsColdLegFaster" end time: Oct 24 21:30 PDT
+"PlantStep.FanIncreasesUAAndCoolsColdLegFaster" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/14 Testing: CtrlSetQuant.Q01RoundsAndClamps
+11/14 Test: CtrlSetQuant.Q01RoundsAndClamps
+Command: "/home/alireza/Documents/Interview_ECE/CAN_PID/CAN_Simulation/build/unit_test/unit_test_ctrl_set/ctrl_set_tests" "--gtest_filter=CtrlSetQuant.Q01RoundsAndClamps" "--gtest_also_run_disabled_tests"
+Directory: /home/alireza/Documents/Interview_ECE/CAN_PID/CAN_Simulation/build/unit_test/unit_test_ctrl_set
+"CtrlSetQuant.Q01RoundsAndClamps" start time: Oct 24 21:30 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = CtrlSetQuant.Q01RoundsAndClamps
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CtrlSetQuant
+[ RUN      ] CtrlSetQuant.Q01RoundsAndClamps
+[       OK ] CtrlSetQuant.Q01RoundsAndClamps (0 ms)
+[----------] 1 test from CtrlSetQuant (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CtrlSetQuant.Q01RoundsAndClamps" end time: Oct 24 21:30 PDT
+"CtrlSetQuant.Q01RoundsAndClamps" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/14 Testing: CtrlSetQuant.Q88AndQ44Basics
+12/14 Test: CtrlSetQuant.Q88AndQ44Basics
+Command: "/home/alireza/Documents/Interview_ECE/CAN_PID/CAN_Simulation/build/unit_test/unit_test_ctrl_set/ctrl_set_tests" "--gtest_filter=CtrlSetQuant.Q88AndQ44Basics" "--gtest_also_run_disabled_tests"
+Directory: /home/alireza/Documents/Interview_ECE/CAN_PID/CAN_Simulation/build/unit_test/unit_test_ctrl_set
+"CtrlSetQuant.Q88AndQ44Basics" start time: Oct 24 21:30 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = CtrlSetQuant.Q88AndQ44Basics
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CtrlSetQuant
+[ RUN      ] CtrlSetQuant.Q88AndQ44Basics
+[       OK ] CtrlSetQuant.Q88AndQ44Basics (0 ms)
+[----------] 1 test from CtrlSetQuant (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CtrlSetQuant.Q88AndQ44Basics" end time: Oct 24 21:30 PDT
+"CtrlSetQuant.Q88AndQ44Basics" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/14 Testing: CtrlSetFrames.BuildSetpointOnly
+13/14 Test: CtrlSetFrames.BuildSetpointOnly
+Command: "/home/alireza/Documents/Interview_ECE/CAN_PID/CAN_Simulation/build/unit_test/unit_test_ctrl_set/ctrl_set_tests" "--gtest_filter=CtrlSetFrames.BuildSetpointOnly" "--gtest_also_run_disabled_tests"
+Directory: /home/alireza/Documents/Interview_ECE/CAN_PID/CAN_Simulation/build/unit_test/unit_test_ctrl_set
+"CtrlSetFrames.BuildSetpointOnly" start time: Oct 24 21:30 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = CtrlSetFrames.BuildSetpointOnly
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CtrlSetFrames
+[ RUN      ] CtrlSetFrames.BuildSetpointOnly
+[       OK ] CtrlSetFrames.BuildSetpointOnly (0 ms)
+[----------] 1 test from CtrlSetFrames (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CtrlSetFrames.BuildSetpointOnly" end time: Oct 24 21:30 PDT
+"CtrlSetFrames.BuildSetpointOnly" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/14 Testing: CtrlSetFrames.BuildParamsAll
+14/14 Test: CtrlSetFrames.BuildParamsAll
+Command: "/home/alireza/Documents/Interview_ECE/CAN_PID/CAN_Simulation/build/unit_test/unit_test_ctrl_set/ctrl_set_tests" "--gtest_filter=CtrlSetFrames.BuildParamsAll" "--gtest_also_run_disabled_tests"
+Directory: /home/alireza/Documents/Interview_ECE/CAN_PID/CAN_Simulation/build/unit_test/unit_test_ctrl_set
+"CtrlSetFrames.BuildParamsAll" start time: Oct 24 21:30 PDT
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = CtrlSetFrames.BuildParamsAll
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CtrlSetFrames
+[ RUN      ] CtrlSetFrames.BuildParamsAll
+[       OK ] CtrlSetFrames.BuildParamsAll (0 ms)
+[----------] 1 test from CtrlSetFrames (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CtrlSetFrames.BuildParamsAll" end time: Oct 24 21:30 PDT
+"CtrlSetFrames.BuildParamsAll" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 24 21:30 PDT

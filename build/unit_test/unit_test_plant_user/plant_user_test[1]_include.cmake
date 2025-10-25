@@ -1,0 +1,5 @@
+if(EXISTS "/home/alireza/Documents/Interview_ECE/CAN_PID/CAN_Simulation/build/unit_test/unit_test_plant_user/plant_user_test[1]_tests.cmake")
+  include("/home/alireza/Documents/Interview_ECE/CAN_PID/CAN_Simulation/build/unit_test/unit_test_plant_user/plant_user_test[1]_tests.cmake")
+else()
+  add_test(plant_user_test_NOT_BUILT plant_user_test_NOT_BUILT)
+endif()
