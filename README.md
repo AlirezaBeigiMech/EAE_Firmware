@@ -19,7 +19,7 @@ Unit tests cover the user-space helpers via GoogleTest, while KUnit covers the k
 - Linux with SocketCAN support (`vcan`, `iproute2`, `modprobe`) and kernel headers installed.
 - GCC/Clang toolchain for user-space builds.
 - CMake ≥ 3.15 and GoogleTest development packages for unit tests.
-- A buildable kernel tree if you plan to run KUnit under UML (handled automatically by `run_kunit_uml.sh`).
+- A buildable kernel tree if you plan to run KUnit under UML (handled automatically by `test_kernel_driver.sh`).
 
 > The helper scripts call `sudo` for `modprobe`, `ip link`, and `insmod`. Ensure your user can run those commands.
 
@@ -127,8 +127,8 @@ Kernel logs are tagged with `[B]` for easy filtering.
 - **User-space unit tests** (GTest + CTest):
 
   ```bash
-  chmod +x test.sh
-  ./test.sh
+  chmod +x test_userspace_driver.sh
+  ./test_userspace_driver.sh
   ```
 
   Builds the project in `build/`, runs `plant_user` and `ctrl_set` tests, then drops into the kernel directory to build and run the KUnit module on the host kernel (requires CONFIG_KUNIT).
@@ -136,9 +136,9 @@ Kernel logs are tagged with `[B]` for easy filtering.
 - **KUnit under UML** (no host kernel rebuild):
 
   ```bash
-  chmod +x run_kunit_uml.sh
-  ./run_kunit_uml.sh          # clones a Linux tree on demand and runs the suite
-  ./run_kunit_uml.sh --clean  # remove the temporary kernel checkout
+  chmod +x test_kernel_driver.sh
+  ./test_kernel_driver.sh          # clones a Linux tree on demand and runs the suite
+  ./test_kernel_driver.sh --clean  # remove the temporary kernel checkout
   ```
 
   Stages the driver into `drivers/misc/nodeb`, writes a `.kunitconfig`, and invokes `tools/testing/kunit/kunit.py run`.
@@ -153,7 +153,7 @@ Kernel logs are tagged with `[B]` for easy filtering.
 | `plant_user.c`, `plant_user_api.h`           | Node C simulator + public test header |
 | `controller/`                                | Out-of-tree kernel module + KUnit tests |
 | `unit_test/`                                 | CMake-based GoogleTest suites |
-| `run.sh`, `test.sh`, `run_kunit_uml.sh`      | Convenience scripts (run full stack, run tests, run UML KUnit) |
+| `run.sh`, `test.sh`, `test_kernel_driver.sh`      | Convenience scripts (run full stack, run tests, run UML KUnit) |
 | `CMakeLists.txt`, `unit_test/**/CMakeLists`  | Build configuration for unit tests |
 
 Build artifacts (`plant_user`, `ctrl_set`, kernel `.ko`, CMake `build/`) are kept at the top level by the helper scripts.
@@ -163,7 +163,7 @@ Build artifacts (`plant_user`, `ctrl_set`, kernel `.ko`, CMake `build/`) are kep
 ## Tips & Troubleshooting
 
 - `x-terminal-emulator` must exist for `run.sh`; adjust the script if you prefer another terminal.
-- If `CONFIG_KUNIT` is disabled in your running kernel, the `controller/Makefile` skips building `tests/nodeb_kunit_test.o`. In that case rely on `run_kunit_uml.sh`.
+- If `CONFIG_KUNIT` is disabled in your running kernel, the `controller/Makefile` skips building `tests/nodeb_kunit_test.o`. In that case rely on `test_kernel_driver.sh`.
 - Reset the `vcan0` interface manually with `sudo ip link delete vcan0` if you need a clean slate.
 - Use `journalctl -k -f` or `dmesg --follow` to watch controller logs while experimenting with gain changes.
 
