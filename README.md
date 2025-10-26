@@ -100,6 +100,17 @@ Kernel logs are tagged with `[B]` for easy filtering.
 
 ---
 
+## Controller Node Overview
+
+- **High-resolution timers:** Uses an `hrtimer` (`tx_timer`) to schedule CAN ID `0x201` transmissions at `period_ms`, giving sub-millisecond jitter compared to `timer_list`.
+- **Inactivity watchdog:** A second `hrtimer` (`rx_guard`) counts down `idle_ms`; if plant feedback (`0x202`) goes silent the guard cancels command TX to prevent runaway actuation.
+- **CAN ingress:** Registers filters for `0x300/0x301/0x302/0x202`, storing frames in a lock-protected FIFO processed by a workqueue bottom-half.
+- **State machine:** `have_feedback` and `state` variables gate the timers—new telemetry arms `tx_timer`, guard expirations disarm it, and module unload stops both paths cleanly.
+- **Control loop:** On each timer fire, telemetry is converted to Q16.16, PID + decoupling terms compute `omega_cmd_rpm` and `v_cmd_rpm`, results are clamped, and the CAN frame is emitted through the raw socket.
+- **Runtime tuning:** Frames from `ctrl_set` update controller gains immediately, so PID tuning happens without recompiling or reloading the module.
+
+---
+
 ## Testing
 
 - **User-space unit tests** (GTest + CTest):
