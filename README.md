@@ -111,6 +111,17 @@ Kernel logs are tagged with `[B]` for easy filtering.
 
 ---
 
+## Plant Node Overview
+
+- **SocketCAN polling:** Opens a raw CAN socket on `vcan0`, filters for `0x201`, and uses `poll()` with a 50 ms timeout to interleave computation and CAN RX without busy waits.
+- **Deterministic timestep:** Tracks a fixed integration step (`dt_ms`) from CLI or quantized feedback; enforces 0.5–255 ms bounds so packing into a single byte stays valid.
+- **Thermal-fluid model:** Maintains `Plant` state (`Ts`, `Th`, `Tc`, `mdot`, `v_prev`) and integrates via `plant_step`, combining pump torque, radiator UA, and system heating with saturation guards.
+- **Safety clamps:** Wraps helpers like `sat`, `safe_sq`, and `pack_*` to keep temperatures, flow, and fan speeds within physical limits before transmission.
+- **Telemetry emission:** Packages the evolved state into CAN ID `0x202`, using q0.1 for temperatures and q10 for fan speed, and transmits every iteration through the same socket.
+- **Diagnostics:** Periodically prints plant state and last command, aiding controller tuning without needing an external CAN monitor.
+
+---
+
 ## Testing
 
 - **User-space unit tests** (GTest + CTest):
